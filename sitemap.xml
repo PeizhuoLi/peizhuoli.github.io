@@ -3,15 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://peizhuoli.github.io/authors/</loc>
+    <loc>https://peizhuoli.github.io/publication-type/1/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://peizhuoli.github.io/categories/</loc>
+    <loc>https://peizhuoli.github.io/authors/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/author/baoquan-chen/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/author/dani-lischinski/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/author/daniel-cohen-or/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/author/kfir-aberman/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/author/olga-sorkine-hornung/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://peizhuoli.github.io/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/author/peizhuo-li/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/publication_types/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/publication/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/publication/skeleton-aware/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peizhuoli.github.io/categories/</loc>
   </url>
   
   <url>
@@ -20,14 +72,6 @@
   
   <url>
     <loc>https://peizhuoli.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://peizhuoli.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://peizhuoli.github.io/publication/</loc>
   </url>
   
   <url>
