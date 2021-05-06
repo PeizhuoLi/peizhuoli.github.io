@@ -94,20 +94,19 @@
                             <div data-anchor="slide1" class="section nerf_section">
                               <div class="grey_container w-container">
                                 <h2 class="grey-heading_nerf">Abstract &amp; Method</h2>
-                                <p class="paragraph-3 nerf_text">We develop a neural technique for articulating 3D characters using enveloping with a pre-defined skeletal structure, which is essential for animating character with motion capture (mocap) data. Furthermore, we propose <i>neural blend shapes</i> — a set of corrective pose-dependent shapes that is used to address the notorious artifacts caused by standard rigging and skinning technique in joint region.</p>
+                                <p class="paragraph-3 nerf_text">We develop a neural technique for articulating 3D characters using enveloping with a pre-defined skeletal structure, which is essential for animating a character with motion capture (mocap) data. Furthermore, we propose <i>neural blend shapes</i> — a set of corrective pose-dependent shapes that are used to address notorious artifacts caused by standard rigging and skinning technique in the joint regions.</p>
                                 <span class="center">
                                 <img src="./images/overview.png" class="overview_figure"/>
                                 </span>
 
-                                <p class="paragraph-3 nerf_text">Starting with a character model in T-pose and the joint rotations on the desired skeleton hierarchy, our envelope branch predicts the 
-                                  corresponding skinning and rigging parameters and deforms the input character using a differential enveloping. In parallel, the residual deformation branch uses the input mesh to predict blend shapes and uses the joint rotations to predict the corresponding blending coefficients. This design also enables the network to be trained by only observing deformed shapes using <i>indirect supervision</i>, with no assumption on underlying deformation model.</p>
+                                <p class="paragraph-3 nerf_text">Starting with a character model in T-pose, and the joint rotations on the desired skeleton hierarchy, our envelope branch predicts the 
+                                  corresponding skinning and rigging parameters and deforms the input character using a differential enveloping. In parallel, a residual deformation branch uses the input mesh to predict blend shapes and uses the joint rotations to predict the corresponding blending coefficients. This design also enables the network to be trained by only observing deformed shapes using <i>indirect supervision</i>, with no assumption on the underlying deformation model.</p>
                                 <span class="center">                                
                                 <img src="./images/method.png" class="overview_figure"/>
                                 </span>
                             
 
-                            <p class="paragraph-3 nerf_text">Our network is built upon the MeshCNN operators of Hanocka et al. [2019] and the Skeleton-Aware operators of Aberman et al. [2020].
-                              which enables generation of high-quality deformations for arbitrary mesh connectivities.
+                            <p class="paragraph-3 nerf_text">Our network is built upon the MeshCNN operators of Hanocka et al. [2019] and the Skeleton-Aware operators of Aberman et al. [2020], which enables generation of high-quality deformations for arbitrary mesh connectivities.
                             </p>
 
                               <div class="center">
@@ -124,11 +123,11 @@
 <div class="white_section_nerf">
   <div class="w-container">
   <h2 class="grey-heading_nerf">Rigging &amp; Skinning</h2>
-  <p class="paragraph-3 nerf_text nerf_results_text">Our method can predict accurate skinning weight and skeleton for unseen characters:</p>
+  <p class="paragraph-3 nerf_text nerf_results_text">Our method can predict accurate skinning weights and skeleton rigs for unseen characters:</p>
   <span class="center">
     <img class="skin_result" src="images/skinning.png">
   </span>
-  <p class="paragraph-3 nerf_text nerf_results_text">Particularly, our model outputs a skeleton complying with the target skeletal hierarchy, which is important for exploiting existing mocap data. RigNet [2020] only provides limited user control and is not able to reach the desired skeletal hierarchy.</p>
+  <p class="paragraph-3 nerf_text nerf_results_text">Specifically, our model outputs a skeleton complying with the target skeletal hierarchy, which is important for exploiting existing mocap data. RigNet [2020] only provides limited user control and is not able to reach the desired skeletal hierarchy.</p>
   <div class="center">
     <span class="center">
       <img src="images/rignet_cmp.png" class="rig_comparison">
@@ -143,7 +142,7 @@
 <div class="white_section_nerf">
   <div class="grey_container w-container">
   <h2 class="grey-heading_nerf">High-Quality Deformation</h2>
-  <p class="paragraph-3 nerf_text nerf_results_text">Since our model is trained with high-quality deformation, the envelope branch outperforms baseline LBS technique. Boosted by the neural blend shapes, our method can generate better deformation on joint region:</p>
+  <p class="paragraph-3 nerf_text nerf_results_text">Since our model is trained using high-quality deformations, the envelope branch outperforms the baseline LBS technique. Further boosted by the neural blend shapes, our method can generate favorable deformations in the joint region:</p>
   <span class="center"><img src="images/deformation.gif"></span>
   <p class="paragraph-3 nerf_text nerf_results_text">And even capture subtle soft tissue movements:</p>
   <span class="center"><img src="images/video_teaser.gif"></span>
