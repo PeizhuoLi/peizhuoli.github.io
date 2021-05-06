@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Peizhuo Li</title>
-    <link>https://peizhuoli.github.io/publication/</link>
-      <atom:link href="https://peizhuoli.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>2 | Peizhuo Li</title>
+    <link>https://peizhuoli.github.io/publication-type/2/</link>
+      <atom:link href="https://peizhuoli.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_2.png</url>
-      <title>Publications</title>
-      <link>https://peizhuoli.github.io/publication/</link>
+      <title>2</title>
+      <link>https://peizhuoli.github.io/publication-type/2/</link>
     </image>
     
     <item>

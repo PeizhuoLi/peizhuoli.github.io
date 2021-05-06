@@ -1,85 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://peizhuoli.github.io/publication-type/1/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <loc>https://peizhuoli.github.io/publication-type/2/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peizhuoli.github.io/authors/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peizhuoli.github.io/author/baoquan-chen/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/author/kfir-aberman/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/publication/neural-blend-shapes/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/author/libin-liu/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/author/olga-sorkine-hornung/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/author/peizhuo-li/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/publication_types/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/publication/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peizhuoli.github.io/author/rana-hanocka/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peizhuoli.github.io/author/dani-lischinski/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://peizhuoli.github.io/author/daniel-cohen-or/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peizhuoli.github.io/author/kfir-aberman/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peizhuoli.github.io/author/olga-sorkine-hornung/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peizhuoli.github.io/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peizhuoli.github.io/author/peizhuo-li/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peizhuoli.github.io/publication_types/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://peizhuoli.github.io/publication/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://peizhuoli.github.io/publication/skeleton-aware/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://peizhuoli.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://peizhuoli.github.io/author/peizhuo-li/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://peizhuoli.github.io/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://peizhuoli.github.io/talk/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://peizhuoli.github.io/tags/</loc>
   </url>
-  
 </urlset>
