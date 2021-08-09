@@ -5,28 +5,12 @@
     <link>https://peizhuoli.github.io/author/peizhuo-li/</link>
       <atom:link href="https://peizhuoli.github.io/author/peizhuo-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Peizhuo Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_2.png</url>
       <title>Peizhuo Li</title>
       <link>https://peizhuoli.github.io/author/peizhuo-li/</link>
     </image>
-    
-    <item>
-      <title>Learning Skeletal Articulations with Neural Blend Shapes</title>
-      <link>https://peizhuoli.github.io/publication/neural-blend-shapes/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/neural-blend-shapes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Skeleton-Aware Networks for Deep Motion Retargeting</title>
-      <link>https://peizhuoli.github.io/publication/skeleton-aware/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/skeleton-aware/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
