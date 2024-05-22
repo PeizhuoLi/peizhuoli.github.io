@@ -154,8 +154,8 @@
 
   <div class="white_section_nerf">
     <div class="grey_container w-container">
-      <h2 class="grey-heading_nerf">The Phase Manifolds</h2>
-      <p class="paragraph-3 nerf_text nerf_results_text">The learned manifold effectively clusters motions </p>
+      <h2 class="grey-heading_nerf">The Phase Manifold</h2>
+      <p class="paragraph-3 nerf_text nerf_results_text">The learned manifold effectively clusters motions with the same semantic meaning into the same connected component:</p>
 
       <span class="center">
         <video class="video-player-small" autoplay loop muted playsinline>
@@ -163,40 +163,62 @@
           Your browser does not support the video tag.
         </video>
       </span>
-      <p class="paragraph-3 nerf_text nerf_results_text">Due to the nature
-        of the feature and network design, our network can easily handle the
-        dynamics of garments on an unseen body model.</p>
-      <div class="center">
-        <span class="center">
-          <img src="images/unseen_body.gif" class="skin_result">
-        </span>
 
-        <p class="paragraph-3 nerf_text nerf_results_text">The
-          manifold-aware design also enables our network to handle
-          topological cuts that cannot be reflected with only spatial
-          features.</p>
-        <div class="center">
-          <span class="center">
-            <img src="images/seam_cut.gif" class="skin_result">
-          </span>
-        </div>
-      </div>
+      <p class="paragraph-3 nerf_text nerf_results_text">When examing the average pose of point on the manifold, our method can also cluster raw motion captures from different characters into semantically similar groups, without any paired data or pre-defined joint mapping:</p>
+
+      <span class="center">
+        <video class="video-player-small" autoplay loop muted playsinline>
+          <source src="./resources/average-pose.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </span>
+
+      <span class="center">
+        <p class="paragraph-3 nerf_text nerf_results_text"></p>
+      </span>
     </div>
 
     <div class="white_section_nerf">
       <div class="w-container">
-        <h2 class="grey-heading_nerf">Comparisons</h2>
-        <p class="paragraph-3 nerf_text nerf_results_text">Here we compare
-          our result to a supervised method. It can be seen that our method
-          models the dynamics of a loose garment better than the baseline:
-        </p>
-        <span class="center"><img src="images/comparison_ssch.gif"></span>
-        <p class="paragraph-3 nerf_text nerf_results_text">Here we compare
-          our result to a generalizable method driven by graph convolution.
-          It can be seen that our method generates consistent results, while
-          the graph convolution based method suffers from unnatural
-          artifacts due to high resolution but limited receptive field:</p>
-        <span class="center"><img src="images/comparison_hood.gif"></span>
+        <h2 class="grey-heading_nerf">Applications</h2>
+        <p class="paragraph-3 nerf_text nerf_results_text">With the highly structured manifold, we can trivie motions from the same connected component but of different frequencies:</p>
+
+        <span class="center">
+          <video class="video-player-small" autoplay loop muted playsinline>
+            <source src="./resources/retrival.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </span>
+
+
+        <p class="paragraph-3 nerf_text nerf_results_text">Using the embedding of the human motion as input, we can transfer it to the dog by running motion matching on the leanred manifold:</p>
+
+        <span class="center">
+          <video class="video-player-small" autoplay loop muted playsinline>
+            <source src="./resources/transfer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </span>
+
+
+        <p class="paragraph-3 nerf_text nerf_results_text">Since our latent space captures the core semantic meaning and alignment of motions, we can achieve character stylization immediately by transferring motions between datasets with different characteristic:</p>
+
+        <span class="center">
+          <video class="video-player-small" autoplay loop muted playsinline>
+            <source src="./resources/characterization.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </span>
+
+
+        <p class="paragraph-3 nerf_text nerf_results_text">When multiple autoencoders are trained on multiple datasets together, a common phase manifold can be learned. Then, we can  transfer motions among various morphologies and characteristics at the same time:</p>
+
+        <span class="center">
+          <video class="video-player-small" autoplay loop muted playsinline>
+            <source src="./resources/multiple.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </span>
       </div>
     </div>
 
