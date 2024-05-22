@@ -4801,11 +4801,19 @@ img {
   font-size: 14px
 }
 
-<style>.video-player {
+.video-player {
   margin-top: 50px;
-  /* Add 50px margin on the top */
-  margin-bottom: 50px;
-  /* Add 50px margin on the bottom */
+  /* Adds vertical space above the video */
+  margin-bottom: 30px;
+  /* Adds vertical space below the video */
+  width: 100%;
+  /* Sets the width of the video to 100% of its container's width */
 }
 
-</style>
+.video-player-small {
+  margin-top: 0px;
+  /* Adds vertical space above the video */
+  margin-bottom: 0px;
+  /* Adds vertical space below the video */
+  width: 90%;
+}
