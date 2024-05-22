@@ -6,6 +6,25 @@
   <title>WalkTheDog</title>
   <meta content="summary" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
   <link href="./motion_editing.css" rel="stylesheet" type="text/css"/>
+  <script>
+    window.MathJax = {
+      tex: {
+        macros: {
+          R: "\\mathbb{R}",
+          exp: "\\mathrm{e}^{#1}",  // Macro with an argument
+          X: "{\\bf X}",  // Macro with no argument
+          A: "{\\bf A}",
+          P: "{\\bf P}",
+        }
+      },
+      startup: {
+        pageReady: function() {
+          return MathJax.startup.defaultPageReady();
+        }
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic","Changa One:400,400italic","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Varela Round:400","Bungee Shade:regular","Roboto:300,regular,500"]  }});</script>
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
@@ -20,7 +39,7 @@
     }
   </style>
 
-</style></head>
+</head>
 <body>
   <div class="section hero nerf-_v2">
     <div class="container-2 nerf_header_v2 w-container">
@@ -77,16 +96,19 @@
                             <div data-anchor="slide1" class="section nerf_section">
                               <div class="w-container">
                                 <h2 class="grey-heading_nerf">Abstract &amp; Method</h2>
-                                <p class="paragraph-3 nerf_text">In this work, we present a manifold-aware transformer framework that can learn the dynamics of different garments driven by various unseen motions. Our network model the dynamics of a garment by exploiting its local interactions with the underlying human body, allowing us to handle different <i>garment types, body models, mesh resolutions and local connectivities</i>.
                                 <span class="center">
-                                <img src="./resources/overview.png" class="overview_figure"/>
+                                  <img src="./resources/overview.png" class="overview_figure"/>
                                 </span>
+                                <p class="paragraph-3 nerf_text">We introduce a novel approach to learn a common phase manifold from motion datasets across different characters, such as human and dog, using vector quantized periodic autoencoders. This manifold clusters semantically similar motions into the same connected component and aligns them temporally without supervision.
+                                
 
-                                <p class="paragraph-3 nerf_text">
-                                  We start with extracting the garment features and interaction features on the garment geometry from the past frames. Our manifold-aware transformer is then applied spatially to the input features and predicts the relative deformation gradients to the next frame. An initial prediction is obtained with a Poisson solver. After the collision refinement, we get the prediction for the next frame. We auto-regressively repeat this process until the desired number of frames is reached.</p>
                                 <span class="center">                                
-                                <img src="./images/method.png" class="overview_figure"/>
+                                  <img src="./resources/arch.png" class="full_figure"/>
                                 </span>
+                                <p class="paragraph-3 nerf_text">
+                                  Starting with a short motion sequence \(\X \in \R^{J \times T}\), the encoder learns an intermediate representation using convolution. The representation is fed into the timing and the amplitude branch for predicting the phase \(\phi\), the frequency \(f\) and the amplitude \( \A \) of the pivot frame (rendered with mesh). A vector quantization (i.e. nearest neighbor search) is used in the amplitude branch to ensure the structure of the phase manifold. Note the codebook \( \mathcal{A}\) is shared among multiple VQ-PAEs. We calculate the embedding \(\P\) of the sequence assuming the frequency and amplitude stay constant in the sequence. The predicted phase manifold sequence is then passed through a convolutional decoder to reconstruct the input motion.
+                                </p>
+                                
                             
 
                             <p class="paragraph-3 nerf_text">The <i><span style="color: rgb(252,184,46);">input features</span></i> are extracted from the faces of the input mesh. After being projected into <i><span style="color: rgb(247,188,214);">embedding space</span></i> by a linear transformation, they are fed into the transformer encoder. Our manifold-aware self-attention layers explicitly involve local connectivities of the input geometry, making it possible to predict accurate dynamics caused by seams. The output of the transformer encoder is projected to the output features by another linear transformation. The <i><span style="color: rgb(18,176,38);">output features</span></i> are then used to predict the next frame of garment deformation.
