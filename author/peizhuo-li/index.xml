@@ -22,24 +22,16 @@
     
   </channel>
 </rss>
- Garment Dynamics via Manifold-Aware Transformers</title>
-      <link>https://peizhuoli.github.io/publication/manifold-aware-transformers/</link>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/manifold-aware-transformers/</guid>
-      <description></description>
+ry Lab&lt;/a&gt; under the supervision of 
+&lt;a href=&#34;https://igl.ethz.ch/people/sorkine/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Olga Sorkine-Hornung&lt;/a&gt;. My research interest lies in the intersection between deep learning and computer graphics. In particular, I am interested in practical problems related to character animation. Prior to my PhD study, I was an intern at 
+&lt;a href=&#34;http://vcl.pku.edu.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Computing and Learning lab&lt;/a&gt; at Peking University and advised by 
+&lt;a href=&#34;http://baoquanchen.info&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Baoquan Chen&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
-    <item>
-      <title>Example-based Motion Synthesis via Generative Motion Matching</title>
-      <link>https://peizhuoli.github.io/publication/genmm/</link>
-      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/genmm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MoDi: Unconditional Motion Synthesis from Diverse Data</title>
-      <link>https://peizhuoli.github.io/publication/modi/</link>
+  </channel>
+</rss>
+ <link>https://peizhuoli.github.io/publication/modi/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://peizhuoli.github.io/publication/modi/</guid>
       <description></description>
