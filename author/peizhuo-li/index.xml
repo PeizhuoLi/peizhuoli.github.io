@@ -2,54 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peizhuo Li* | Peizhuo Li</title>
-    <link>https://peizhuoli.github.io/author/peizhuo-li/</link>
-      <atom:link href="https://peizhuoli.github.io/author/peizhuo-li/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/peizhuo-li/</link>
+      <atom:link href="http://localhost:1313/author/peizhuo-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Peizhuo Li*</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
       <title>Peizhuo Li*</title>
-      <link>https://peizhuoli.github.io/author/peizhuo-li/</link>
+      <link>http://localhost:1313/author/peizhuo-li/</link>
     </image>
     
     <item>
       <title>Skeleton-Aware Networks for Deep Motion Retargeting</title>
-      <link>https://peizhuoli.github.io/publication/skeleton-aware/</link>
+      <link>http://localhost:1313/publication/skeleton-aware/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/skeleton-aware/</guid>
+      <guid>http://localhost:1313/publication/skeleton-aware/</guid>
       <description></description>
     </item>
     
   </channel>
 </rss>
-ry Lab&lt;/a&gt; under the supervision of 
-&lt;a href=&#34;https://igl.ethz.ch/people/sorkine/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Olga Sorkine-Hornung&lt;/a&gt;. My research interest lies in the intersection between deep learning and computer graphics. In particular, I am interested in practical problems related to character animation. Prior to my PhD study, I was an intern at 
-&lt;a href=&#34;http://vcl.pku.edu.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Computing and Learning lab&lt;/a&gt; at Peking University and advised by 
-&lt;a href=&#34;http://baoquanchen.info&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Baoquan Chen&lt;/a&gt;.&lt;/p&gt;
-</description>
+WalkTheDog: Cross-Morphology Motion Alignment via Phase Manifolds</title>
+      <link>http://localhost:1313/publication/walkthedog/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/walkthedog/</guid>
+      <description></description>
     </item>
     
-  </channel>
-</rss>
- <link>https://peizhuoli.github.io/publication/modi/</link>
+    <item>
+      <title>Neural Garment Dynamics via Manifold-Aware Transformers</title>
+      <link>http://localhost:1313/publication/manifold-aware-transformers/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/manifold-aware-transformers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example-based Motion Synthesis via Generative Motion Matching</title>
+      <link>http://localhost:1313/publication/genmm/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/genmm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MoDi: Unconditional Motion Synthesis from Diverse Data</title>
+      <link>http://localhost:1313/publication/modi/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/modi/</guid>
+      <guid>http://localhost:1313/publication/modi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GANimator: Neural Motion Synthesis from a Single Sequence</title>
-      <link>https://peizhuoli.github.io/publication/ganimator/</link>
+      <link>http://localhost:1313/publication/ganimator/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/ganimator/</guid>
+      <guid>http://localhost:1313/publication/ganimator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Skeletal Articulations with Neural Blend Shapes</title>
-      <link>https://peizhuoli.github.io/publication/neural-blend-shapes/</link>
+      <link>http://localhost:1313/publication/neural-blend-shapes/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/neural-blend-shapes/</guid>
+      <guid>http://localhost:1313/publication/neural-blend-shapes/</guid>
       <description></description>
     </item>
     

@@ -2,113 +2,125 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://peizhuoli.github.io/publication-type/1/</loc>
+    <loc>http://localhost:1313/publication-type/1/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/author/gordon-wetzstein/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/author/olga-sorkine-hornung/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/author/peizhuo-li/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publication/pose-to-motion/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publication_types/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publication/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/author/qingqing-zhao/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/author/wang-yifan/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/author/sebastian-starke/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/authors/</loc>
+    <loc>http://localhost:1313/publication/walkthedog/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/olga-sorkine-hornung/</loc>
+    <loc>http://localhost:1313/author/yuting-ye/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peizhuoli.github.io/author/peizhuo-li/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peizhuoli.github.io/publication_types/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peizhuoli.github.io/publication/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peizhuoli.github.io/author/sebastian-starke/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peizhuoli.github.io/publication/walkthedog/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peizhuoli.github.io/author/yuting-ye/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peizhuoli.github.io/publication-type/2/</loc>
+    <loc>http://localhost:1313/publication-type/2/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/duygu-ceylan/</loc>
+    <loc>http://localhost:1313/author/duygu-ceylan/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/publication/manifold-aware-transformers/</loc>
+    <loc>http://localhost:1313/publication/manifold-aware-transformers/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/timur-levent-kesdogan/</loc>
+    <loc>http://localhost:1313/author/timur-levent-kesdogan/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/tuanfeng-y.-wang/</loc>
+    <loc>http://localhost:1313/author/tuanfeng-y.-wang/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/baoquan-chen/</loc>
+    <loc>http://localhost:1313/author/baoquan-chen/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/publication/genmm/</loc>
+    <loc>http://localhost:1313/publication/genmm/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/weiyu-li/</loc>
+    <loc>http://localhost:1313/author/weiyu-li/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/xuelin-chen/</loc>
+    <loc>http://localhost:1313/author/xuelin-chen/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/daniel-cohen-or/</loc>
+    <loc>http://localhost:1313/author/daniel-cohen-or/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/inbal-leibovitch/</loc>
+    <loc>http://localhost:1313/author/inbal-leibovitch/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/kfir-aberman/</loc>
+    <loc>http://localhost:1313/author/kfir-aberman/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/publication/modi/</loc>
+    <loc>http://localhost:1313/publication/modi/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/sigal-raab/</loc>
+    <loc>http://localhost:1313/author/sigal-raab/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/publication/ganimator/</loc>
+    <loc>http://localhost:1313/publication/ganimator/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/rana-hanocka/</loc>
+    <loc>http://localhost:1313/author/rana-hanocka/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/zihan-zhang/</loc>
+    <loc>http://localhost:1313/author/zihan-zhang/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/publication/neural-blend-shapes/</loc>
+    <loc>http://localhost:1313/publication/neural-blend-shapes/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/libin-liu/</loc>
+    <loc>http://localhost:1313/author/libin-liu/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/dani-lischinski/</loc>
+    <loc>http://localhost:1313/author/dani-lischinski/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/kfir-aberman/</loc>
+    <loc>http://localhost:1313/author/kfir-aberman/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/peizhuo-li/</loc>
+    <loc>http://localhost:1313/author/peizhuo-li/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/publication/skeleton-aware/</loc>
+    <loc>http://localhost:1313/publication/skeleton-aware/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peizhuoli.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://peizhuoli.github.io/author/peizhuo-li/</loc>
+    <loc>http://localhost:1313/author/peizhuo-li/</loc>
   </url><url>
-    <loc>https://peizhuoli.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
   </url><url>
-    <loc>https://peizhuoli.github.io/talk/</loc>
+    <loc>http://localhost:1313/talk/</loc>
   </url><url>
-    <loc>https://peizhuoli.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

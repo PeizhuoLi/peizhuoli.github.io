@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dani Lischinski | Peizhuo Li</title>
-    <link>https://peizhuoli.github.io/author/dani-lischinski/</link>
-      <atom:link href="https://peizhuoli.github.io/author/dani-lischinski/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/dani-lischinski/</link>
+      <atom:link href="http://localhost:1313/author/dani-lischinski/index.xml" rel="self" type="application/rss+xml" />
     <description>Dani Lischinski</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
       <title>Dani Lischinski</title>
-      <link>https://peizhuoli.github.io/author/dani-lischinski/</link>
+      <link>http://localhost:1313/author/dani-lischinski/</link>
     </image>
     
     <item>
       <title>Skeleton-Aware Networks for Deep Motion Retargeting</title>
-      <link>https://peizhuoli.github.io/publication/skeleton-aware/</link>
+      <link>http://localhost:1313/publication/skeleton-aware/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/skeleton-aware/</guid>
+      <guid>http://localhost:1313/publication/skeleton-aware/</guid>
       <description></description>
     </item>
     
