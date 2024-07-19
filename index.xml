@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peizhuo Li</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://peizhuoli.github.io/</link>
+      <atom:link href="https://peizhuoli.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peizhuo Li</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
+      <url>https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
       <title>Peizhuo Li</title>
-      <link>http://localhost:1313/</link>
+      <link>https://peizhuoli.github.io/</link>
     </image>
     
     <item>
       <title>Pose-to-Motion: Cross-Domain Motion Retargeting with Pose Prior</title>
-      <link>http://localhost:1313/publication/pose-to-motion/</link>
+      <link>https://peizhuoli.github.io/publication/pose-to-motion/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pose-to-motion/</guid>
+      <guid>https://peizhuoli.github.io/publication/pose-to-motion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WalkTheDog: Cross-Morphology Motion Alignment via Phase Manifolds</title>
-      <link>http://localhost:1313/publication/walkthedog/</link>
+      <link>https://peizhuoli.github.io/publication/walkthedog/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/walkthedog/</guid>
+      <guid>https://peizhuoli.github.io/publication/walkthedog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neural Garment Dynamics via Manifold-Aware Transformers</title>
-      <link>http://localhost:1313/publication/manifold-aware-transformers/</link>
+      <link>https://peizhuoli.github.io/publication/manifold-aware-transformers/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/manifold-aware-transformers/</guid>
+      <guid>https://peizhuoli.github.io/publication/manifold-aware-transformers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example-based Motion Synthesis via Generative Motion Matching</title>
-      <link>http://localhost:1313/publication/genmm/</link>
+      <link>https://peizhuoli.github.io/publication/genmm/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/genmm/</guid>
+      <guid>https://peizhuoli.github.io/publication/genmm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MoDi: Unconditional Motion Synthesis from Diverse Data</title>
-      <link>http://localhost:1313/publication/modi/</link>
+      <link>https://peizhuoli.github.io/publication/modi/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/modi/</guid>
+      <guid>https://peizhuoli.github.io/publication/modi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GANimator: Neural Motion Synthesis from a Single Sequence</title>
-      <link>http://localhost:1313/publication/ganimator/</link>
+      <link>https://peizhuoli.github.io/publication/ganimator/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ganimator/</guid>
+      <guid>https://peizhuoli.github.io/publication/ganimator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Skeletal Articulations with Neural Blend Shapes</title>
-      <link>http://localhost:1313/publication/neural-blend-shapes/</link>
+      <link>https://peizhuoli.github.io/publication/neural-blend-shapes/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/neural-blend-shapes/</guid>
+      <guid>https://peizhuoli.github.io/publication/neural-blend-shapes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Skeleton-Aware Networks for Deep Motion Retargeting</title>
-      <link>http://localhost:1313/publication/skeleton-aware/</link>
+      <link>https://peizhuoli.github.io/publication/skeleton-aware/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/skeleton-aware/</guid>
+      <guid>https://peizhuoli.github.io/publication/skeleton-aware/</guid>
       <description></description>
     </item>
     

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Baoquan Chen | Peizhuo Li</title>
-    <link>http://localhost:1313/author/baoquan-chen/</link>
-      <atom:link href="http://localhost:1313/author/baoquan-chen/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://peizhuoli.github.io/author/baoquan-chen/</link>
+      <atom:link href="https://peizhuoli.github.io/author/baoquan-chen/index.xml" rel="self" type="application/rss+xml" />
     <description>Baoquan Chen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
+      <url>https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
       <title>Baoquan Chen</title>
-      <link>http://localhost:1313/author/baoquan-chen/</link>
+      <link>https://peizhuoli.github.io/author/baoquan-chen/</link>
     </image>
     
     <item>
       <title>Example-based Motion Synthesis via Generative Motion Matching</title>
-      <link>http://localhost:1313/publication/genmm/</link>
+      <link>https://peizhuoli.github.io/publication/genmm/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/genmm/</guid>
+      <guid>https://peizhuoli.github.io/publication/genmm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Skeletal Articulations with Neural Blend Shapes</title>
-      <link>http://localhost:1313/publication/neural-blend-shapes/</link>
+      <link>https://peizhuoli.github.io/publication/neural-blend-shapes/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/neural-blend-shapes/</guid>
+      <guid>https://peizhuoli.github.io/publication/neural-blend-shapes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Skeleton-Aware Networks for Deep Motion Retargeting</title>
-      <link>http://localhost:1313/publication/skeleton-aware/</link>
+      <link>https://peizhuoli.github.io/publication/skeleton-aware/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/skeleton-aware/</guid>
+      <guid>https://peizhuoli.github.io/publication/skeleton-aware/</guid>
       <description></description>
     </item>
     

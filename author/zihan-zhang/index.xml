@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zihan Zhang | Peizhuo Li</title>
-    <link>http://localhost:1313/author/zihan-zhang/</link>
-      <atom:link href="http://localhost:1313/author/zihan-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://peizhuoli.github.io/author/zihan-zhang/</link>
+      <atom:link href="https://peizhuoli.github.io/author/zihan-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Zihan Zhang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
+      <url>https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
       <title>Zihan Zhang</title>
-      <link>http://localhost:1313/author/zihan-zhang/</link>
+      <link>https://peizhuoli.github.io/author/zihan-zhang/</link>
     </image>
     
     <item>
       <title>GANimator: Neural Motion Synthesis from a Single Sequence</title>
-      <link>http://localhost:1313/publication/ganimator/</link>
+      <link>https://peizhuoli.github.io/publication/ganimator/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ganimator/</guid>
+      <guid>https://peizhuoli.github.io/publication/ganimator/</guid>
       <description></description>
     </item>
     
