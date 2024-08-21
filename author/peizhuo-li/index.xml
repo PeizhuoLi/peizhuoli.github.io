@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peizhuo Li</title>
+    <title>Peizhuo Li* | Peizhuo Li</title>
     <link>https://peizhuoli.github.io/author/peizhuo-li/</link>
       <atom:link href="https://peizhuoli.github.io/author/peizhuo-li/index.xml" rel="self" type="application/rss+xml" />
-    <description>Peizhuo Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <description>Peizhuo Li*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_512x512_fill_lanczos_center_3.png</url>
-      <title>Peizhuo Li</title>
+      <title>Peizhuo Li*</title>
       <link>https://peizhuoli.github.io/author/peizhuo-li/</link>
     </image>
     
     <item>
-      <title>Pose-to-Motion: Cross-Domain Motion Retargeting with Pose Prior</title>
-      <link>https://peizhuoli.github.io/publication/pose-to-motion/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://peizhuoli.github.io/publication/pose-to-motion/</guid>
+      <title>Skeleton-Aware Networks for Deep Motion Retargeting</title>
+      <link>https://peizhuoli.github.io/publication/skeleton-aware/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://peizhuoli.github.io/publication/skeleton-aware/</guid>
       <description></description>
     </item>
     
-    <item>
-      <title>WalkTheDog: Cross-Morphology Motion Alignment via Phase Manifolds</title>
+  </channel>
+</rss>
+WalkTheDog: Cross-Morphology Motion Alignment via Phase Manifolds</title>
       <link>https://peizhuoli.github.io/publication/walkthedog/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://peizhuoli.github.io/publication/walkthedog/</guid>
