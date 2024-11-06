@@ -208,6 +208,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0E031Z7RGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-0E031Z7RGC', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -217,8 +255,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu17394281022445186649.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu7932461261671702267.png">
 
   <link rel="canonical" href="https://peizhuoli.github.io/publication/genmm/">
 
@@ -286,7 +324,7 @@
     "name": "Peizhuo Li",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_192x192_fill_lanczos_center_3.png"
+      "url": "https://peizhuoli.github.io/images/icon_hu7932461261671702267.png"
     }
   },
   "description": "We present Generative Motion Matching (GenMM), a generative model that \"mines\" as many diverse motions as possible from a single or few example sequences. GenMM is training-free and can synthesize a high-quality motion within a fraction of a second, even with highly complex and large skeletal structures."
@@ -631,7 +669,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 276px;">
   <div style="position: relative">
-    <img src="/publication/genmm/featured_hu17e096a87db389160173a695c4b572a6_2326934_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <img src="/publication/genmm/featured_hu17272077431739822274.png" alt="" class="featured-image">
     
   </div>
 </div>

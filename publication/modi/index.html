@@ -208,6 +208,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0E031Z7RGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-0E031Z7RGC', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -217,8 +255,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu17394281022445186649.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu7932461261671702267.png">
 
   <link rel="canonical" href="https://peizhuoli.github.io/publication/modi/">
 
@@ -286,7 +324,7 @@
     "name": "Peizhuo Li",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://peizhuoli.github.io/images/icon_hua6eaeeda60f8bf522d829e7019d2ba35_157180_192x192_fill_lanczos_center_3.png"
+      "url": "https://peizhuoli.github.io/images/icon_hu7932461261671702267.png"
     }
   },
   "description": "The emergence of neural networks revolutionized motion synthesis, yet synthesizing diverse motions remains challenging. We present MoDi, an unsupervised generative model trained on a diverse, unstructured, unlabeled dataset, capable of synthesizing high-quality, diverse motions. Despite dataset's lack of structure, MoDi yields a structured latent space for semantic clustering, enabling applications like semantic editing and crowd simulation. We also introduce an encoder that inverts real motions into MoDi's motion manifold, addressing ill-posed challenges like completion from prefix and spatial editing, achieving state-of-the-art results surpassing recent techniques."
@@ -615,7 +653,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 401px;">
   <div style="position: relative">
-    <img src="/publication/modi/featured_hu7fba9da1679ce4a56c592454604cb9c1_409497_720x0_resize_q100_lanczos.jpg" alt="" class="featured-image">
+    <img src="/publication/modi/featured_hu433867040997302250.jpg" alt="" class="featured-image">
     
   </div>
 </div>
