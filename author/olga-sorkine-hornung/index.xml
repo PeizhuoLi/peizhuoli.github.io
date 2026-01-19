@@ -5,12 +5,20 @@
     <link>https://peizhuoli.github.io/author/olga-sorkine-hornung/</link>
       <atom:link href="https://peizhuoli.github.io/author/olga-sorkine-hornung/index.xml" rel="self" type="application/rss+xml" />
     <description>Olga Sorkine-Hornung</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peizhuoli.github.io/images/icon_hu5205581666500529421.png</url>
       <title>Olga Sorkine-Hornung</title>
       <link>https://peizhuoli.github.io/author/olga-sorkine-hornung/</link>
     </image>
+    
+    <item>
+      <title>Dancing Points: Synthesizing Ballroom Dancing with Three-Point Inputs</title>
+      <link>https://peizhuoli.github.io/publication/dancing-points/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://peizhuoli.github.io/publication/dancing-points/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Pose-to-Motion: Cross-Domain Motion Retargeting with Pose Prior</title>
